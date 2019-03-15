@@ -47,7 +47,7 @@ void InitWindow()
 void renderScene()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
-	lineDDA(0, 300, 400, 20);
+	lineDDA(0, 300, 400, 300);
 	glFlush();
 }
 
